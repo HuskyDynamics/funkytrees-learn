@@ -1,6 +1,7 @@
-title: Funky Docs
-description: A starter template for a Jekyll site using the Just the Docs theme!
+title: Funky Trees Docs
+description: Funky Trees Language Documentation
 theme: just-the-docs
-url: https://snowflake0s.github.io/
-
+baseurl: ""
+url: "https://snowflake0s.github.io/"
+favicon_ico: "/assets/images/favicon.ico"
 color_scheme: dark
