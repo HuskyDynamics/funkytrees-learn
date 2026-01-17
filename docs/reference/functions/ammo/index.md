@@ -1,20 +1,20 @@
 ---
-title: sign
+title: ammo
 layout: default
 parent: Functions
 grand_parent: Reference
 ---
-# sign()
+# ammo()
 ---
 
 ## Syntax
-`sign(x)`
+`ammo(x)`
 
 ## Returns
 Number
 
 ## Description
-Returns the sign of the input: `1` if the value is positive and `-1` if the value is negative.
+Returns the amount of ammo remaining for a weapon. 
 
 ## Arguments
-* **x** (Number): The value to evaluate.
+* **x** (String): The name of the weapon to check ammo count for.

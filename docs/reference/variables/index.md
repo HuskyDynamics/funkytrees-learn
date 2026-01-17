@@ -11,13 +11,13 @@ Variables provide the real-time data used within expressions. They are categoriz
 
 ## Built-in Variables
 Standard data points provided by the game engine.
-* **Input Variables**: Values driven by direct user interaction.
-* **State Variables**: Read-only telemetry and sensor data from the simulation.
+* **Input Variables**: Values driven by direct user interaction. See [Input Variables](/funky-docs/docs/reference/variables/builtin/input/) for details.
+* **State Variables**: Read-only telemetry and sensor data from the simulation. See [State Variables](/funky-docs/docs/reference/variables/builtin/state/) for details.
 
 ## Custom Variables
 Extended data sources defined by the user.
-* **Variable Setters**: Global variables with advanced logic and persistence.
-* **Part Variables**: Local outputs unique to specific aircraft parts.
+* **Variable Setters**: Global variables with advanced logic and persistence. See [Variable Setters](/funky-docs/docs/reference/variables/custom/variablesetters/) for details.
+* **Part Variables**: Local outputs unique to specific aircraft parts. See [Part Variables](/funky-docs/docs/reference/variables/custom/partvariables/) for details.
 
 ## Notes
 * **Case Sensitivity**: All variable names are case-sensitive.

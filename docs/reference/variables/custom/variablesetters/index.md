@@ -15,7 +15,9 @@ Variable Setters are used to create global custom variables within a craft. They
 ## Configuration
 In the aircraft's XML file, variable setters are defined within the `<Variables>` tags. Each setter follows a specific structural format:
 
-`<Setter variable="Name" function="Expression" priority="0" activator="Condition" />`
+```xml
+<Setter variable="Name" function="Expression" priority="0" activator="Condition" />
+```
 
 The order in which setters appear in the XML file matches their order in the in-game Variable Setter GUI.
 

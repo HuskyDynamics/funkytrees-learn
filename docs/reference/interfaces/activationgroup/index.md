@@ -39,7 +39,7 @@ In craft XML files, activation groups are defined in a variety of attributes.[^1
 
 `activator` (Number or Boolean): 
 
-The Funky Trees expression used to control the activator. Any valid expression will work. Most commonly a [Boolean](/docs/reference/expressions/datatypes/#booleans) is used and is the recommended type to use when trying to control activator behavior. 
+The Funky Trees expression used to control the activator. Any valid expression will work. Most commonly a [Boolean](/funky-docs/docs/reference/expressions/datatypes/#booleans) is used and is the recommended type to use when trying to control activator behavior. 
 
 However, as booleans are dynamically typed in Funky Trees, it is possible to use a number input to control activation group interfaces. In this case, the activation group is considered *active* when the number is **larger than 0**.
 

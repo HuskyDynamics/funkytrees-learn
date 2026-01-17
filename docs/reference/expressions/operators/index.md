@@ -39,7 +39,7 @@ Logical operators perform operations on boolean operands and return a boolean re
 | Symbol | Operation | Description |
 | :--- | :--- | :--- |
 | `&` | Boolean AND | Returns `true` only if both operands are `true`. |
-| `\|` | Boolean OR | Returns `true` if at least one of the operands is `true`. |
+| `|` | Boolean OR | Returns `true` if at least one of the operands is `true`. |
 | `!` | Boolean NOT | Inverts the boolean value (e.g., `!true` evaluates to `false`). |
 
 **Evaluation Behavior**: Logical operators utilize "short-circuit" evaluation. If the first argument of an `&` or `|` operator dictates the final outcome (terminal), the second argument is not checked or updated. This can impact time-based functions like `sum()` or `rate()` if they are placed in the second argument.
@@ -47,6 +47,6 @@ Logical operators perform operations on boolean operands and return a boolean re
 ## Selection Operator
 The selection operator allows for inline conditional logic based on a boolean condition.
 
-| Symbol | Name | Syntax | Description |
+| Symbol | Operation | Syntax | Description |
 | :--- | :--- | :--- | :--- |
 | `? :` | Ternary Selection | `a ? b : c` | Evaluates condition `a`. If `a` is `true`, it returns value `b`. If `a` is `false`, it returns value `c`. |
