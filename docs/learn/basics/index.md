@@ -19,7 +19,3 @@ Input controllers have a list of pre-defined options that can be cycled between 
 Most input controllers also come with two additional options: "Activation Group" and "Invert." The former one essentially provides an option to toggle the input on and off - note that this is *not the same* as toggling it between 0 and the input value, but essentially toggles *whether the input controller is "listening" or not.* The latter option changes the "direction" that the input controller works in: control surfaces move the opposite direction, rotators spin the other way, et cetera.
 
 These pre-defined options are adequate for basic crafts ("simple" planes, if you will), but they are not the only options. By holding `Ctrl` and clicking on the input parameter, you can open a window that you can type in, which allows you to write pretty much anything you want as long as it eventually produces a number. This is where Funky Trees comes in. With Funky Trees, you can write mathematical expressions and scripts that rely on more complex logic to control the part's functions, rather than relying exclusively on the predefined list of input variables.
-
-## How Does Funky Trees Work?
-
-On a general level, Funky Trees is essentially a way to choose what you want to use as inputs, run those inputs through varying amounts of math, and then figure out what to do with the result. Details on how to do this may be found in the following sections, but there are several key rules to be aware of before continuing.
