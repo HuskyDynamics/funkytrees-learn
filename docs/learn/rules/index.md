@@ -2,7 +2,7 @@
 title: Rules of Funky Trees
 layout: default
 parent: Learn
-nav_order: 4
+nav_order: 3
 ---
 # Rules of Funky Trees
 #### Formatting, syntax, and execution standards.
@@ -13,7 +13,7 @@ On a general level, Funky Trees is essentially a way to choose what you want to 
 ## Syntax
 * **Spelling matters**: `Altitude` is not the same as `Atlitude`.
 * **Capitalization matters**: `Altitude` and `altitude` are different things.
-* **Order of Operations**: Mathematical operations follow standard order of operations conventions. See [Operators](/funky-docs/docs/learn/operators/) for details.
+* **Order of Operations**: Mathematical operations follow standard order of operations conventions. See [Operators](../operators/) for details.
 * **White space**: Spaces are ignored. `Pitch * 0.5` is processed the same as `Pitch*0.5`. However, spaces are *not* removed automatically, and can be useful for formatting and readability.
 
 ## Execution
@@ -22,6 +22,6 @@ On a general level, Funky Trees is essentially a way to choose what you want to 
 
 ## Expression Types
 Funky Trees uses **three primary expression types**. Every element and expression in any Funky Trees formula can be categorized as one of these three types:
-* [Variables](/funky-docs/docs/learn/variables/)
-* [Functions](/funky-docs/docs/learn/functions/)
-* [Operators](/funky-docs/docs/learn/operators/)
+* [Variables](../../reference/expressions/variables/)
+* [Functions](../../reference/expressions/functions/)
+* [Operators](../../reference/expressions/operators/)

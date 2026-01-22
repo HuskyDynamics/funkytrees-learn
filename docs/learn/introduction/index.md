@@ -5,6 +5,8 @@ parent: Learn
 nav_order: 1
 ---
 # Introduction
+#### What is Funky Trees?
+---
 
 So, you'd like to know more about the programs and scripts that some players use to control parts of their builds. Maybe you just want to understand what these players are doing, or perhaps you want to automate some part of your own builds in some way. You've seen and maybe even flown crafts that have fancy automatic features, but how do you make those features yourself?
 
@@ -16,4 +18,4 @@ As you can probably already tell (even if only from the quantity and volume of t
 
 The tutorials and explanations in this guide assume a working understanding of algebra and trigonometry. Some advanced Funky Trees formulas require knowledge of calculus to properly understand and implement, but this guide is focused on the basics.
 
-**Before continuing, note that this guide makes extensive use of terms and abbreviations that may be unfamiliar to new players.  Refer to the [Key Terms and Definitions](/funky-docs/docs/learn/definitions/) page for explanations of these terms.**
+**Before continuing, note that this guide makes extensive use of terms and abbreviations that may be unfamiliar to new players.  Refer to the [Key Terms and Definitions](../definitions/) page for explanations of these terms.**

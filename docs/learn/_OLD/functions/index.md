@@ -20,14 +20,14 @@ In this example, `function` is the name of the function - in this case, a functi
 
 The majority of Funky Trees functions are number-based functions, which means that they perform a mathematical function of some sort on the variable(s) that they are given.
 
-Number-based functions can accept number and boolean variables, or expressions that produce number or boolean values. As discussed in the [Variables](/funkytrees/docs/learn/variables/) section, boolean values will resolve to either `1` or `-1` automatically depending on their state, which makes it easy to incorporate them into number-based functions.
+Number-based functions can accept number and boolean variables, or expressions that produce number or boolean values. As discussed in the [Variables](../variables/) section, boolean values will resolve to either `1` or `-1` automatically depending on their state, which makes it easy to incorporate them into number-based functions.
 
 Some common number-based Funky Trees functions include:
 * `abs(x)`: Takes the absolute value of `x`.
 * **`clamp01(x)`**: Limits the value of `x` to between 0 and 1. Equivalent to `clamp(x, 0, 1)`.
 * **`sin(x)`**: Calculates the sine of `x`.
 
-A full list of available Funky Trees functions can be found in the [Reference](/funkytrees/docs/reference/functions/) section.
+A full list of available Funky Trees functions can be found in the [Reference](../../reference/functions/) section.
 
 ## Time-based Functions
 
@@ -40,7 +40,7 @@ Time-based functions include:
 | `rate(x)` | The rate of change of `x` over time |
 | `sum(x)` | The integration of `x` over time<sup>*</sup> |
 | `smooth(x, rate)` | Follows `x`, but only at a maximum speed of `rate` units per second |
-| `PID(target, current, p, i, d)` | A PID controller with the parameters `p`, `i` and `d`. [Read more about PID controllers on Wikipedia.](https://en.wikipedia.org/wiki/PID_controller) [Read more about PID controllers in Funky Trees.](/funkytrees/docs/reference/functions/PID/)  |
+| `PID(target, current, p, i, d)` | A PID controller with the parameters `p`, `i` and `d`. [Read more about PID controllers on Wikipedia.](https://en.wikipedia.org/wiki/PID_controller) [Read more about PID controllers in Funky Trees.](../../reference/functions/PID/)  |
 
 
 ## String-based Functions
@@ -53,4 +53,4 @@ The only string-based function that exists in Funky Trees is intended to work wi
 * **`ammo("LandingGear")`** is invalid, because `LandingGear` is not a string variable.
 
 ---
-A full list of available Funky Trees functions can be found in the [Reference](/funkytrees/docs/reference/functions/) section.
+A full list of available Funky Trees functions can be found in the [Reference](../../reference/functions/) section.

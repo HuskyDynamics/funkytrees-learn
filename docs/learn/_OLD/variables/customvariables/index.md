@@ -1,10 +1,10 @@
 ---
-title: Creating a Custom Variable
+title: Custom Variables
 layout: default
 parent: Variables
 nav_order: 1
 ---
-# Creating a Custom Variable
+# Custom Variables
 #### How to create and use custom variables in your Funky Trees expressions.
 ---
 

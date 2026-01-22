@@ -46,10 +46,10 @@ Condition ? ValueIfTrue : ValueIfFalse
 
 ## Combining Operators
 
-The real power of Funky Trees comes from combining different operators to produce complex logical expressions. This will be covered in more detail in the [Tutorials](/funkytrees/docs/learn/tutorials) section, but a few basic examples are shown below:
+The real power of Funky Trees comes from combining different operators to produce complex logical expressions. This will be covered in more detail in the [Tutorials](../tutorials) section, but a few basic examples are shown below:
 
 * `(var1 > 100) & (var2 < 50)` outputs `True` if both conditions are met, and outputs `False` otherwise.
 * `(boo1 | (var3 !< 100) ? 1 : 0` outputs `1` if either the expression `var3 !< 100` or the boolean `boo1` are `True`, and outputs `0` otherwise.
 
 ---
-A full list of available Funky Trees operators can be found in the [Reference](/funkytrees/docs/reference/operators/) section.
+A full list of available Funky Trees operators can be found in the [Reference](../../reference/operators/) section.
