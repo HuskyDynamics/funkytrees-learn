@@ -9,7 +9,7 @@ nav_order: 5
 ---
 `**[TO BE REWORKED FOR CRAFT-BASED TUTORIAL]**`
 
-Every moving part of a craft in SimplePlanes relies on at least one **input controller** in order to tell it what to do.  By changing the value of the variable that is passed to a part's input controller while piloting the craft, the part can be controlled and operated. Parts with input controllers include (but are not limited to) engines, rotators, wheels, control surfaces, and gyroscopes.
+Every moving part of a craft in SimplePlanes relies on at least one *input controller* in order to tell it what to do.  By changing the value of the variable that is passed to a part's input controller while piloting the craft, the part can be controlled and operated. Parts with input controllers include (but are not limited to) engines, rotators, wheels, control surfaces, and gyroscopes.
 
 ## What is an Input Controller?
 

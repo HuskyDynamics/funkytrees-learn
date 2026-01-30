@@ -2,7 +2,7 @@
 title: Rules of Funky Trees
 layout: default
 parent: Learn
-nav_order: 3
+nav_order: 2
 ---
 # Rules of Funky Trees
 #### Formatting, syntax, and execution standards.
