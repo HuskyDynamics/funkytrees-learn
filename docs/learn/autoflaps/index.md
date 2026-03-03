@@ -9,6 +9,8 @@ nav_order: 7
 ---
 
 Coming soon!
-
+```
+max(smooth((IAS>5 ? clamp01(2 - (LandingGear + (IAS-43)/14)) : 0), 1), (Flaps * -1))
+```
 ---
 In [the next part of the tutorial](../targetcamera/), we will be creating a complex set of Funky Trees expressions using multiple flight data values to program a target-tracking camera.
